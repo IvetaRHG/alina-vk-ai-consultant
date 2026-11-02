@@ -1,0 +1,52 @@
+﻿# Секреты (никогда не публикуются)
+.env
+.env.*
+!.env.example
+
+# Ключи, сертификаты и прочие чувствительные файлы
+*.pem
+*.crt
+*.key
+secrets/
+credentials.json
+
+# Локальные справочные материалы, не относящиеся к проекту
+Gigachat_api/
+ProxyAPI/
+_local/
+
+# Логи
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
